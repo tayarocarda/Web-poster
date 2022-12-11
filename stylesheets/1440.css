@@ -1,0 +1,429 @@
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+html {overflow-x: hidden;}
+body {
+ background: #88B2FF;
+ width: 1440px;
+ background-image: url("../images/gradient.svg");
+ background-repeat: no-repeat;
+ box-sizing: border-box;
+ overflow-x: hidden;
+ background-position: center top;
+}
+.copito {
+  position: absolute;
+  margin-top: -263px;
+  margin-left: -172px;
+}
+.copito2 {
+  position: absolute;
+  margin-top: -236px;
+  margin-left: 694px;
+}
+.copito3 {
+  position: absolute;
+  margin-top: 677px;
+  margin-left: -192px;
+}
+.copito4 {
+  position: absolute;
+  margin-top: 779px;
+  margin-left: 925px;
+}
+.text1 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  color: #FFFFFF;
+  margin-top: 130px;
+  margin-left: 80px;
+  transform: rotate(-8deg);
+}
+.text2 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 215px;
+  color: #FFFFFF;
+  margin-top: 56px;
+  margin-left: 953px;
+  transform: rotate(-8deg);
+}
+.text3 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 320px;
+  color: #FFFFFF;
+  margin-top: 267px;
+  margin-left: 111px;
+  transform: rotate(-10deg);
+}
+.text4 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 320px;
+  color: #FFFFFF;
+  margin-top: 517px;
+  margin-left: 515px;
+  transform: rotate(-10deg);
+}
+.text5 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 106px;
+  color: #FFFFFF;
+  margin-top: 873px;
+  margin-left: 213px;
+  transform: rotate(6deg);
+}
+.text6 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 180px;
+  color: #FFFFFF;
+  margin-top: 1153px;
+  margin-left: 65px;
+  transform: rotate(32deg);
+}
+.copito5 {
+  position: absolute;
+  margin-top: 1577px;
+  margin-left: 5px;
+}
+.text7 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  color: #FFFFFF;
+  margin-top: 1512px;
+  margin-left: -15px;
+  transform: rotate(-90deg);
+}
+.text8 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 154px;
+  color: #FFFFFF;
+  margin-top: 1783px;
+  margin-left: 90px;
+}
+.text8:hover{
+  transform: rotate(360deg);
+  transition: all .5s ease-out;
+ }
+.text9 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-top: 2062px;
+  margin-left: 65px;
+}
+.puanti{
+  position: absolute;
+  margin-top: 1311px;
+  margin-left: 984px;
+}
+.nadevai{
+  position: absolute;
+  margin-top: 1348px;
+  margin-left: 779px;
+}
+.copito6 {
+  position: absolute;
+  margin-top: 1496px;
+  margin-left: 816px;
+}
+.logo {
+  position: absolute;
+  margin-top: 2062px;
+  margin-left: 1080px;
+}
+.puanti2{
+  position: absolute;
+  margin-top: 1416px;
+  margin-left: 637px;
+}
+.nadevai2{
+  position: absolute;
+  margin-top: 1653px;
+  margin-left: 666px;
+}
+.lasttext {
+  position: absolute;
+  margin-top: 1104px;
+  margin-left: 286px;
+}
+.top {
+  position: absolute;
+  margin-top: 876px;
+  margin-left: 965px;
+}
+.leg {
+  position: absolute;
+  margin-top: -97px;
+  margin-left: 1px;
+}
+.scale {
+   animation: scale 1.2s steps(1) alternate infinite;
+ }
+ .scale:hover {
+    animation-play-state: paused;
+  }
+ @keyframes scale {
+  0% {margin-top: -263px; margin-left: -172px;}
+  16% {margin-top: -295px; margin-left: -230px;}
+  33% {margin-top: -361px; margin-left: -288px;}
+  43% {margin-top: -461px; margin-left: -278px;}
+  58% {margin-top: -590px; margin-left: -262px;}
+  68% {margin-top: -690px; margin-left: -252px;}
+  86% {margin-top: -745px; margin-left: -242px;}
+ }
+ .dissolve {
+    animation: dissolve 1.2s steps(1) alternate infinite;
+  }
+  .dissolve:hover {
+     animation-play-state: paused;
+   }
+  @keyframes dissolve {
+   0% {margin-top: -236px; margin-left: 694px;}
+   16% {margin-top: -296px; margin-left: 688px;}
+   26% {margin-top: -326px; margin-left: 682px;}
+   33% {margin-top: -367px; margin-left: 678px;}
+   43% {margin-top: -427px; margin-left: 672px;}
+   58% {margin-top: -479px; margin-left: 668px;}
+   68% {margin-top: -529px; margin-left: 662px;}
+   86% {margin-top: -595px; margin-left: 657px;}
+  }
+ .tremble {
+    animation: tremble 1s steps(1) alternate infinite;
+  }
+  .tremble:hover {
+     animation-play-state: paused;
+   }
+  @keyframes tremble {
+   0% {transform: rotate(-8deg);}
+   16% {transform: rotate(-4deg);}
+   33% {transform: rotate(0deg);}
+   58% {transform: rotate(4deg);}
+   76% {transform: rotate(8deg);}
+  }
+  .tremble2 {
+     animation: tremble2 1s steps(1) alternate infinite;
+   }
+   .tremble2:hover {
+      animation-play-state: paused;
+    }
+   @keyframes tremble2 {
+    0% {transform: rotate(8deg);}
+    16% {transform: rotate(4deg);}
+    33% {transform: rotate(0deg);}
+    58% {transform: rotate(-4deg);}
+    76% {transform: rotate(-8deg);}
+   }
+  .wave {
+     animation: wave 1s steps(1) alternate infinite;
+   }
+   @keyframes wave {
+    0% {margin-left: 111px;}
+    16% {margin-left: 105px;}
+    33% {margin-left: 95px;transform: rotate(-2deg);}
+    58% {margin-left: 65px;transform: rotate(-4deg);}
+    76% {margin-left: 45px;transform: rotate(-6deg);}
+   }
+   .wave:hover {
+      animation-play-state: paused;
+    }
+    .wave2 {
+       animation: wave2 1s steps(1) alternate infinite;
+     }
+     @keyframes wave2 {
+      0% {margin-left: 515px;}
+      16% {margin-left: 555px;}
+      33% {margin-left: 605px;transform: rotate(-2deg);}
+      58% {margin-left: 645px;transform: rotate(-4deg);}
+      76% {margin-left: 681px;transform: rotate(-6deg);}
+     }
+     .wave2:hover {
+        animation-play-state: paused;
+      }
+      .dissolve2 {
+         animation: dissolve2 1.2s steps(1) alternate infinite;
+       }
+       .dissolve2:hover {
+          animation-play-state: paused;
+        }
+       @keyframes dissolve2 {
+        0% {margin-top: 677px; margin-left: -192px;}
+        16% {margin-top: 645px; margin-left: -270px;}
+        23% {margin-top: 625px; margin-left: -320px;}
+        33% {margin-top: 600px; margin-left: -390px;}
+        43% {margin-top: 565px; margin-left: -440px;}
+        58% {margin-top: 535px; margin-left: -498px;}
+        78% {margin-top: 555px; margin-left: -538px;}
+        86% {margin-top: 570px; margin-left: -691px;}
+       }
+       .turn {
+          animation: turn 1s steps(1) alternate infinite;
+          animation-play-state: running;
+        }
+       .turn:hover {
+          animation-play-state: paused;
+        }
+        @keyframes turn {
+         0% {transform: rotate(20deg);}
+         16% {transform: rotate(10deg);}
+         33% {transform: rotate(0deg);}
+         58% {transform: rotate(-10deg);}
+         76% {transform: rotate(-20deg);}
+        }
+         .mover {
+            animation: mover 2.4s steps(1) alternate infinite;
+            animation-play-state: running;
+          }
+          .mover:hover {
+             animation-play-state: paused;
+           }
+          @keyframes mover {
+            0% {transform: scale(1);}
+            16% {transform: scale(0.8);}
+            32% {transform: scale(0.6);}
+            42% {transform: scale(0.4);}
+            68% {transform: scale(0.6);}
+            78% {transform: scale(0.8);}
+            86% {transform: scale(1);}
+          }
+          .mover2 {
+             animation: mover2 1.4s steps(1) alternate infinite;
+             animation-play-state: running;
+           }
+           .mover2:hover {
+              animation-play-state: paused;
+            }
+           @keyframes mover2 {
+             0% {transform: scale(1);}
+             16% {transform: scale(0.8);}
+             32% {transform: scale(0.6);}
+             42% {transform: scale(0.4);}
+             68% {transform: scale(0.6);}
+             78% {transform: scale(0.8);}
+             86% {transform: scale(1);}
+           }
+           .cop {
+              animation: cop 2.4s steps(1) alternate infinite;
+              animation-play-state: running;
+            }
+            @keyframes cop {
+              0% {transform: scale(1);}
+              16% {transform: scale(0.9);}
+              36% {transform: scale(0.7);}
+              46% {transform: scale(0.5);}
+              56% {transform: scale(0.4);}
+              60% {transform: scale(0.5);}
+              69% {transform: scale(0.7);}
+              76% {transform: scale(0.9);}
+              86% {transform: scale(1);}
+            }
+            .cop:hover {
+               animation-play-state: paused;
+             }
+             .rot {
+                animation: rot 1s steps(1) alternate infinite;
+              }
+              @keyframes rot {
+                0% {transform: scale(1.8);}
+                16% {transform: scale(0.8);}
+                33% {transform: scale(0);}
+                58% {transform: scale(0.8);}
+                76% {transform: scale(1.8);}
+              }
+              .rot:hover {
+                 animation-play-state: paused;
+               }
+               .turnover {
+                  animation: turnover 1s steps(1) alternate infinite;
+                  animation-play-state: running;
+                }
+                .turnover:hover {
+                   animation-play-state: paused;
+                 }
+                @keyframes turnover {
+                 0% {transform: rotate(0deg);}
+                 16% {transform: rotate(180deg);}
+                 33% {transform: rotate(270deg);}
+                 48% {transform: rotate(360deg);}
+                 76% {transform: rotate(0deg);}
+                }
+                .adress {
+                   animation: adress 1s ease infinite;
+                   animation-play-state: paused;
+                 }
+                 .adress:hover {
+                    animation-play-state: running;
+                  }
+                 @keyframes adress {
+                  0% {transform: rotate(-90deg);}
+                  16% {transform: rotate(-85deg);}
+                  33% {transform: rotate(-95deg);}
+                  48% {transform: rotate(-85deg);}
+                  76% {transform: rotate(-90deg);}
+                 }
+                 .bottom {
+                    animation: bottom 1s ease infinite;
+                    animation-play-state: paused;
+                  }
+                  .bottom:hover {
+                     animation-play-state: running;
+                   }
+                  @keyframes bottom {
+                   0% {transform: rotate(0deg);}
+                   16% {transform: rotate(10deg);}
+                   33% {transform: rotate(0deg);}
+                   48% {transform: rotate(-10deg);}
+                   76% {transform: rotate(-0deg);}
+                  }
+                  .bottom2 {
+                     animation: bottom2 1.2s alternate linear infinite;
+                     animation-play-state: running;
+                   }
+                   .bottom2:hover {
+                      animation-play-state: paused;
+                    }
+                   @keyframes bottom2 {
+                     0% {opacity: 1;}
+                     100% {opacity: 0;}
+                   }
+                   .fly{
+                      animation: fly 1.2s steps(1) alternate infinite;
+                      animation-play-state: running;
+                    }
+                    .fly:hover {
+                       animation-play-state: paused;
+                     }
+                    @keyframes fly {
+                     0% {margin-top: 1104px; margin-left: 286px;}
+                     16% {margin-top: 1085px; margin-left: 299px;}
+                     23% {margin-top: 1044px; margin-left: 317px;}
+                     33% {margin-top: 1018px; margin-left: 337px;}
+                     43% {margin-top: 1068px; margin-left: 317px;}
+                     58% {margin-top: 1098px; margin-left: 300px;}
+                     78% {margin-top: 1145px; margin-left: 265px;}
+                     86% {margin-top: 1178px; margin-left: 240px;}
+                    }
+}

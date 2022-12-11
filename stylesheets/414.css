@@ -1,0 +1,22 @@
+@media only screen and (min-width: 414px) and (max-width: 767px){
+  html {overflow-x: hidden;}
+body {
+ background: #88B2FF;
+ width: 414px;
+ background-image: url("../images/gradient.svg");
+ background-repeat: no-repeat;
+ box-sizing: border-box;
+ background-position: center top;
+}
+.text1 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  color: #FFFFFF;
+  margin-top: 130px;
+  margin-left: 80px;
+  transform: rotate(-8deg);
+}
+}
