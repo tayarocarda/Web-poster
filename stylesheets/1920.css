@@ -424,13 +424,13 @@
                          animation-play-state: paused;
                        }
                       @keyframes fly {
-                       0% {margin-top: 1216px; margin-left: 487px;}
-                       16% {margin-top: 1196px; margin-left: 497px;}
+                       0% {margin-top: 1236px; margin-left: 487px;}
+                       16% {margin-top: 1206px; margin-left: 497px;}
                        23% {margin-top: 1186px; margin-left: 507px;}
                        33% {margin-top: 1176px; margin-left: 517px;}
                        43% {margin-top: 1179px; margin-left: 507px;}
                        58% {margin-top: 1188px; margin-left: 497px;}
-                       78% {margin-top: 1196px; margin-left: 487px;}
-                       86% {margin-top: 1216px; margin-left: 477px;}
+                       78% {margin-top: 1190px; margin-left: 487px;}
+                       86% {margin-top: 1196px; margin-left: 477px;}
                       }
   }

@@ -17,7 +17,7 @@ body {
 .copito2 {
   position: absolute;
   margin-top: -236px;
-  margin-left: 694px;
+  margin-left: 714px;
 }
 .copito3 {
   position: absolute;
@@ -26,8 +26,8 @@ body {
 }
 .copito4 {
   position: absolute;
-  margin-top: 779px;
-  margin-left: 925px;
+  margin-top: 729px;
+  margin-left: 965px;
 }
 .text1 {
   position: absolute;
@@ -148,7 +148,7 @@ body {
 .copito6 {
   position: absolute;
   margin-top: 1496px;
-  margin-left: 816px;
+  margin-left: 856px;
 }
 .logo {
   position: absolute;
@@ -202,14 +202,14 @@ body {
      animation-play-state: paused;
    }
   @keyframes dissolve {
-   0% {margin-top: -236px; margin-left: 694px;}
-   16% {margin-top: -296px; margin-left: 688px;}
-   26% {margin-top: -326px; margin-left: 682px;}
-   33% {margin-top: -367px; margin-left: 678px;}
-   43% {margin-top: -427px; margin-left: 672px;}
-   58% {margin-top: -479px; margin-left: 668px;}
-   68% {margin-top: -529px; margin-left: 662px;}
-   86% {margin-top: -595px; margin-left: 657px;}
+   0% {margin-top: -236px; margin-left: 760px;}
+   16% {margin-top: -296px; margin-left: 752px;}
+   26% {margin-top: -326px; margin-left: 747px;}
+   33% {margin-top: -367px; margin-left: 737px;}
+   43% {margin-top: -427px; margin-left: 727px;}
+   58% {margin-top: -479px; margin-left: 737px;}
+   68% {margin-top: -529px; margin-left: 746px;}
+   86% {margin-top: -595px; margin-left: 752px;}
   }
  .tremble {
     animation: tremble 1s steps(1) alternate infinite;

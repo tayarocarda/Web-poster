@@ -1,0 +1,254 @@
+@media only screen and (min-width: 320px) and (max-width: 413px) {
+html {overflow-x: hidden;}
+body {
+ background: #88B2FF;
+ width: 320px;
+ background-image: url("../images/gradient320.png");
+ background-repeat: no-repeat;
+ box-sizing: border-box;
+ overflow-x: hidden;
+ background-position: center top;
+}
+.copito {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -314px;
+  transform: scale(0.24);
+}
+.copito2 {
+  position: absolute;
+  margin-top: -270px;
+  margin-left: -270px;
+  transform: scale(0.25);
+}
+.copito3 {
+  display: none;
+}
+.copito4 {
+  position: absolute;
+  margin-top: 76px;
+  margin-left: 14px;
+  transform: scale(0.3);
+}
+.text1 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-top: 31px;
+  margin-left: 25px;
+  transform: rotate(-8deg);
+}
+.text2 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-left: 180px;
+  transform: rotate(-8deg);
+}
+.text3 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 78px;
+  color: #FFFFFF;
+  margin-top: 103px;
+  margin-left: 32px;
+  transform: rotate(-10deg);
+}
+.text4 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 78px;
+  color: #FFFFFF;
+  margin-top: 162px;
+  margin-left: 121px;
+  transform: rotate(-10deg);
+}
+.text5 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-top: 257px;
+  margin-left: 35px;
+  transform: rotate(-6deg);
+}
+.text6 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  color: #FFFFFF;
+  margin-top: 325px;
+  margin-left: 12px;
+  transform: rotate(32deg);
+}
+.copito5 {
+  position: absolute;
+  margin-top: 288px;
+  margin-left: -65px;
+  transform: scale(0.2);
+}
+.text7 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-top: 450px;
+  margin-left: -6px;
+  transform: rotate(-90deg);
+}
+.text8 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  color: #FFFFFF;
+  margin-top: 535px;
+  margin-left: 21px;
+}
+.text8:hover{
+  transform: rotate(360deg);
+  transition: all .5s ease-out;
+ }
+.text9 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 625px;
+  margin-left: 30px;
+}
+.puanti{
+  position: absolute;
+  margin-top: 266px;
+  margin-left: 58px;
+  transform: scale(0.3);
+}
+.nadevai{
+  position: absolute;
+  margin-top: 245px;
+  margin-left: -37px;
+  transform: scale(0.3);
+}
+.copito6 {
+  display: none;
+}
+.logo {
+  position: absolute;
+  margin-top: 586px;
+  margin-left: 108px;
+  transform: scale(0.3);
+}
+.puanti2{
+  position: absolute;
+  margin-top: 248px;
+  margin-left: -87px;
+  transform: scale(0.3);
+}
+.nadevai2{
+  display: none;
+}
+.lasttext {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -321px;
+  transform: scale(0.27);
+}
+.top {
+  position: absolute;
+  margin-top: 876px;
+  margin-left: 965px;
+}
+.leg {
+  position: absolute;
+  margin-top: -97px;
+  margin-left: 1px;
+}
+.dissolve {
+   animation: dissolve 1.8s steps(1) alternate infinite;
+ }
+ .dissolve:hover {
+    animation-play-state: paused;
+  }
+ @keyframes dissolve {
+  0% {margin-top: -410px; margin-left: -274px;}
+  16% {margin-top: -370px; margin-left: -265px;}
+  26% {margin-top: -320px; margin-left: -256px;}
+  33% {margin-top: -270px; margin-left: -260px;}
+  43% {margin-top: -295px; margin-left: -239px;}
+  58% {margin-top: -325px; margin-left: -250px;}
+  68% {margin-top: -375px; margin-left: -265px;}
+  86% {margin-top: -432px; margin-left: -274px;}
+ }
+ .tremble {
+    animation: tremble 1.1s steps(1) alternate infinite;
+  }
+  .tremble:hover {
+     animation-play-state: paused;
+   }
+  @keyframes tremble {
+   0% {transform: rotate(-8deg);}
+   16% {transform: rotate(-4deg);}
+   33% {transform: rotate(0deg);}
+   58% {transform: rotate(4deg);}
+   76% {transform: rotate(8deg);}
+  }
+  .tremble2 {
+     animation: tremble2 1.1s steps(1) alternate infinite;
+   }
+   .tremble2:hover {
+      animation-play-state: paused;
+    }
+   @keyframes tremble2 {
+    0% {transform: rotate(8deg);}
+    16% {transform: rotate(4deg);}
+    33% {transform: rotate(0deg);}
+    58% {transform: rotate(-4deg);}
+    76% {transform: rotate(-8deg);}
+   }
+   .wave {
+      animation: wave 1.1s steps(1) alternate infinite;
+    }
+    @keyframes wave {
+     0% {margin-left: 32px;}
+     16% {margin-left: 38px;}
+     33% {margin-left: 44px;transform: rotate(-2deg);}
+     58% {margin-left: 50px;transform: rotate(-4deg);}
+     76% {margin-left: 54px;transform: rotate(-6deg);}
+    }
+    .wave:hover {
+       animation-play-state: paused;
+     }
+     .wave2 {
+        animation: wave2 1.1s steps(1) alternate infinite;
+      }
+      @keyframes wave2 {
+       0% {margin-left: 140px;}
+       16% {margin-left: 145px;}
+       33% {margin-left: 150px;transform: rotate(-2deg);}
+       58% {margin-left: 155px;transform: rotate(-4deg);}
+       76% {margin-left: 160px;transform: rotate(-6deg);}
+      }
+      .wave2:hover {
+         animation-play-state: paused;
+       }
+}
