@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
 html {overflow-x: hidden;}
 body {
  background: #88B2FF;
@@ -48,7 +48,7 @@ body {
   font-family: "PFDinCondensedRegular";
   font-style: normal;
   font-weight: 400;
-  font-size: 170px;
+  font-size: 160px;
   color: #FFFFFF;
   margin-top: 70px;
   margin-left: 669px;
@@ -59,9 +59,9 @@ body {
   font-family: "PFDinCondensedRegular";
   font-style: normal;
   font-weight: 400;
-  font-size: 260px;
+  font-size: 250px;
   color: #FFFFFF;
-  margin-top: 267px;
+  margin-top: 301px;
   margin-left: 111px;
   transform: rotate(-10deg);
 }
@@ -70,9 +70,9 @@ body {
   font-family: "PFDinCondensedRegular";
   font-style: normal;
   font-weight: 400;
-  font-size: 260px;
+  font-size: 250px;
   color: #FFFFFF;
-  margin-top: 469px;
+  margin-top: 516px;
   margin-left: 401px;
   transform: rotate(-10deg);
 }
@@ -83,7 +83,7 @@ body {
   font-weight: 400;
   font-size: 90px;
   color: #FFFFFF;
-  margin-top: 815px;
+  margin-top: 856px;
   margin-left: 147px;
   transform: rotate(6deg);
 }
@@ -94,14 +94,14 @@ body {
   font-weight: 400;
   font-size: 130px;
   color: #FFFFFF;
-  margin-top: 1118px;
-  margin-left: 42px;
+  margin-top: 1089px;
+  margin-left: 72px;
   transform: rotate(32deg);
 }
 .copito5 {
   position: absolute;
   margin-top: 1577px;
-  margin-left: 5px;
+  margin-left: -60px;
   transform: scale(0.8);
 }
 .text7 {
@@ -111,8 +111,8 @@ body {
   font-weight: 400;
   font-size: 70px;
   color: #FFFFFF;
-  margin-top: 1512px;
-  margin-left: -15px;
+  margin-top: 1660px;
+  margin-left: -31px;
   transform: rotate(-90deg);
 }
 .text8 {
@@ -122,8 +122,8 @@ body {
   font-weight: 400;
   font-size: 134px;
   color: #FFFFFF;
-  margin-top: 1740px;
-  margin-left: 60px;
+  margin-top: 1904px;
+  margin-left: 52px;
 }
 .text8:hover{
   transform: rotate(360deg);
@@ -141,15 +141,15 @@ body {
 }
 .puanti{
   position: absolute;
-  margin-top: 1196px;
+  margin-top: 1262px;
   margin-left: 658px;
-  transform: scale(0.8);
+  transform: scale(0.65);
 }
 .nadevai{
   position: absolute;
-  margin-top: 1239px;
+  margin-top: 1313px;
   margin-left: 479px;
-  transform: scale(0.8);
+  transform: scale(0.65);
 }
 .copito6 {
   position: absolute;
@@ -165,21 +165,21 @@ body {
 }
 .puanti2{
   position: absolute;
-  margin-top: 1298px;
+  margin-top: 1390px;
   margin-left: 377px;
-  transform: scale(0.8);
+  transform: scale(0.65);
 }
 .nadevai2{
   position: absolute;
-  margin-top: 1496px;
+  margin-top: 1612px;
   margin-left: 413px;
-  transform: scale(0.8);
+  transform: scale(0.65);
 }
 .lasttext {
   position: absolute;
   margin-top: 979px;
   margin-left: 84px;
-  transform: scale(0.8);
+  transform: scale(0.65);
 }
 .top {
   position: absolute;
@@ -298,13 +298,13 @@ body {
              animation-play-state: paused;
            }
          @keyframes mover {
-           0% {transform: scale(0.8);}
-           16% {transform: scale(0.6);}
+           0% {transform: scale(0.65);}
+           16% {transform: scale(0.55);}
            32% {transform: scale(0.4);}
            42% {transform: scale(0.2);}
            68% {transform: scale(0.4);}
-           78% {transform: scale(0.6);}
-           86% {transform: scale(0.8);}
+           78% {transform: scale(0.55);}
+           86% {transform: scale(0.65);}
          }
          .mover2 {
             animation: mover2 1.4s steps(1) alternate infinite;

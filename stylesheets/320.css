@@ -19,7 +19,7 @@ body {
   position: absolute;
   margin-top: -270px;
   margin-left: -270px;
-  transform: scale(0.25);
+  transform: scale(0.3);
 }
 .copito3 {
   display: none;
@@ -27,7 +27,7 @@ body {
 .copito4 {
   position: absolute;
   margin-top: 76px;
-  margin-left: 14px;
+  margin-left: 21px;
   transform: scale(0.3);
 }
 .text1 {
@@ -46,10 +46,10 @@ body {
   font-family: "PFDinCondensedRegular";
   font-style: normal;
   font-weight: 400;
-  font-size: 55px;
+  font-size: 50px;
   color: #FFFFFF;
-  margin-top: 30px;
-  margin-left: 180px;
+  margin-top: 38px;
+  margin-left: 203px;
   transform: rotate(-8deg);
 }
 .text3 {
@@ -59,7 +59,7 @@ body {
   font-weight: 400;
   font-size: 78px;
   color: #FFFFFF;
-  margin-top: 103px;
+  margin-top: 96px;
   margin-left: 32px;
   transform: rotate(-10deg);
 }
@@ -107,10 +107,10 @@ body {
   font-family: "PFDinCondensedRegular";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 22px;
   color: #FFFFFF;
-  margin-top: 450px;
-  margin-left: -6px;
+  margin-top: 458px;
+  margin-left: -4px;
   transform: rotate(-90deg);
 }
 .text8 {
@@ -118,9 +118,9 @@ body {
   font-family: "PFDinCondensedRegular";
   font-style: normal;
   font-weight: 400;
-  font-size: 52px;
+  font-size: 48px;
   color: #FFFFFF;
-  margin-top: 535px;
+  margin-top: 531px;
   margin-left: 21px;
 }
 .text8:hover{
@@ -134,18 +134,18 @@ body {
   font-weight: 400;
   font-size: 18px;
   color: #FFFFFF;
-  margin-top: 625px;
-  margin-left: 30px;
+  margin-top: 633px;
+  margin-left: 31px;
 }
 .puanti{
   position: absolute;
-  margin-top: 266px;
+  margin-top: 272px;
   margin-left: 58px;
   transform: scale(0.3);
 }
 .nadevai{
   position: absolute;
-  margin-top: 245px;
+  margin-top: 257px;
   margin-left: -37px;
   transform: scale(0.3);
 }
@@ -154,13 +154,13 @@ body {
 }
 .logo {
   position: absolute;
-  margin-top: 586px;
-  margin-left: 108px;
+  margin-top: 593px;
+  margin-left: 134px;
   transform: scale(0.3);
 }
 .puanti2{
   position: absolute;
-  margin-top: 248px;
+  margin-top: 264px;
   margin-left: -87px;
   transform: scale(0.3);
 }
@@ -183,12 +183,21 @@ body {
   margin-top: -97px;
   margin-left: 1px;
 }
-.dissolve {
-   animation: dissolve 1.8s steps(1) alternate infinite;
+.scale {
+   animation: scale 1.2s steps(1) alternate infinite;
  }
- .dissolve:hover {
-    animation-play-state: paused;
-  }
+ @keyframes scale {
+  0% {margin-top: -15px; margin-left: -314px;}
+  16% {margin-top: -20px; margin-left: -334px;}
+  33% {margin-top: -25px; margin-left: -354px;}
+  43% {margin-top: -30px; margin-left: -374px;}
+  58% {margin-top: -34px; margin-left: -394px;}
+  68% {margin-top: -40px; margin-left: -423px;}
+  86% {margin-top: -46px; margin-left: -443px;}
+ }
+.dissolve {
+   animation: dissolve 2.4s steps(1) alternate infinite;
+ }
  @keyframes dissolve {
   0% {margin-top: -410px; margin-left: -274px;}
   16% {margin-top: -370px; margin-left: -265px;}
@@ -200,24 +209,18 @@ body {
   86% {margin-top: -432px; margin-left: -274px;}
  }
  .tremble {
-    animation: tremble 1.1s steps(1) alternate infinite;
+    animation: tremble 1.2s steps(1) alternate infinite;
   }
-  .tremble:hover {
-     animation-play-state: paused;
-   }
   @keyframes tremble {
-   0% {transform: rotate(-8deg);}
-   16% {transform: rotate(-4deg);}
+   0% {transform: rotate(8deg);}
+   16% {transform: rotate(4deg);}
    33% {transform: rotate(0deg);}
-   58% {transform: rotate(4deg);}
-   76% {transform: rotate(8deg);}
+   58% {transform: rotate(-4deg);}
+   76% {transform: rotate(-8deg);}
   }
   .tremble2 {
-     animation: tremble2 1.1s steps(1) alternate infinite;
+     animation: tremble2 1.2s steps(1) alternate infinite;
    }
-   .tremble2:hover {
-      animation-play-state: paused;
-    }
    @keyframes tremble2 {
     0% {transform: rotate(8deg);}
     16% {transform: rotate(4deg);}
@@ -226,7 +229,7 @@ body {
     76% {transform: rotate(-8deg);}
    }
    .wave {
-      animation: wave 1.1s steps(1) alternate infinite;
+      animation: wave 1.2s steps(1) alternate infinite;
     }
     @keyframes wave {
      0% {margin-left: 32px;}
@@ -235,20 +238,85 @@ body {
      58% {margin-left: 50px;transform: rotate(-4deg);}
      76% {margin-left: 54px;transform: rotate(-6deg);}
     }
-    .wave:hover {
-       animation-play-state: paused;
-     }
      .wave2 {
-        animation: wave2 1.1s steps(1) alternate infinite;
+        animation: wave2 1.2s steps(1) alternate infinite;
       }
       @keyframes wave2 {
-       0% {margin-left: 140px;}
-       16% {margin-left: 145px;}
-       33% {margin-left: 150px;transform: rotate(-2deg);}
-       58% {margin-left: 155px;transform: rotate(-4deg);}
-       76% {margin-left: 160px;transform: rotate(-6deg);}
+       0% {margin-left: 118px;}
+       16% {margin-left: 122px;}
+       33% {margin-left: 126px;transform: rotate(-2deg);}
+       58% {margin-left: 130px;transform: rotate(-4deg);}
+       76% {margin-left: 134px;transform: rotate(-6deg);}
       }
-      .wave2:hover {
-         animation-play-state: paused;
-       }
+       .bottom2 {
+          animation: bottom2 1.2s alternate linear infinite;
+          animation-play-state: running;
+        }
+        @keyframes bottom2 {
+          0% {opacity: 1;}
+          100% {opacity: 0;}
+        }
+        .turn {
+           animation: turn 1.2s steps(1) alternate infinite;
+           animation-play-state: running;
+         }
+         @keyframes turn {
+          0% {transform: rotate(20deg);}
+          16% {transform: rotate(10deg);}
+          33% {transform: rotate(0deg);}
+          58% {transform: rotate(-10deg);}
+          76% {transform: rotate(-20deg);}
+         }
+         .fly{
+            animation: fly 1.8s steps(1) alternate infinite;
+            animation-play-state: running;
+          }
+          @keyframes fly {
+           0% {margin-top: -1px; margin-left: -305px;}
+           16% {margin-top: -5px; margin-left: -310px;}
+           23% {margin-top: -9px; margin-left: -315px;}
+           33% {margin-top: -12px; margin-left: -318px;}
+           43% {margin-top: -15px; margin-left: -321px;}
+           58% {margin-top: -12px; margin-left: -318px;}
+           78% {margin-top: -9px; margin-left: -315px;}
+           86% {margin-top: -5px; margin-left: -310px;}
+          }
+         .turnover {
+            animation: turnover 1.2s steps(1) alternate infinite;
+            animation-play-state: running;
+          }
+          @keyframes turnover {
+           0% {transform: rotate(0deg);}
+           16% {transform: rotate(180deg);}
+           33% {transform: rotate(270deg);}
+           48% {transform: rotate(360deg);}
+           76% {transform: rotate(0deg);}
+          }
+          .cop {
+             animation: cop 2.4s steps(1) alternate infinite;
+             animation-play-state: running;
+           }
+           @keyframes cop {
+             0% {transform: scale(0.25);}
+             16% {transform: scale(0.2);}
+             26% {transform: scale(0.16);}
+             36% {transform: scale(0.12);}
+             46% {transform: scale(0.1);}
+             56% {transform: scale(0.12);}
+             76% {transform: scale(0.2);}
+             86% {transform: scale(0.25);}
+           }
+           .mover {
+              animation: mover 3.6s steps(1) alternate infinite;
+              animation-play-state: running;
+            }
+            @keyframes mover {
+              0% {transform: scale(0.26);}
+              16% {transform: scale(0.2);}
+              32% {transform: scale(0.1);}
+              42% {transform: scale(0.26);}
+              68% {transform: scale(0.2);}
+              78% {transform: scale(0.1);}
+              86% {transform: scale(0.26);}
+            }
 }

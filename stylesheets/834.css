@@ -9,4 +9,349 @@ body {
  overflow-x: hidden;
  background-position: center top;
 }
+.copito {
+  position: absolute;
+  margin-top: -283px;
+  margin-left: -207px;
+  transform: scale(0.6);
+}
+.copito2 {
+  position: absolute;
+  margin-top: -245px;
+  margin-left: 286px;
+  transform: scale(0.6);
+}
+.copito3 {
+  position: absolute;
+  margin-top: 204px;
+  margin-left: -277px;
+  transform: scale(0.6);
+}
+.copito4 {
+  position: absolute;
+  margin-top: 355px;
+  margin-left: 461px;
+  transform: scale(0.6);
+}
+.text1 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-top: 73px;
+  margin-left: 80px;
+  transform: rotate(-8deg);
+}
+.text2 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 115px;
+  color: #FFFFFF;
+  margin-top: 48px;
+  margin-left: 559px;
+  transform: rotate(-8deg);
+}
+.text3 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 178px;
+  color: #FFFFFF;
+  margin-top: 175px;
+  margin-left: 111px;
+  transform: rotate(-10deg);
+}
+.text4 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 178px;
+  color: #FFFFFF;
+  margin-top: 299px;
+  margin-left: 365px;
+  transform: rotate(-10deg);
+}
+.text5 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  color: #FFFFFF;
+  margin-top: 499px;
+  margin-left: 79px;
+  transform: rotate(6deg);
+}
+.text6 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  color: #FFFFFF;
+  margin-top: 648px;
+  margin-left: 69px;
+  transform: rotate(32deg);
+}
+.copito5 {
+  position: absolute;
+  margin-top: 738px;
+  margin-left: -121px;
+  transform: scale(0.6);
+}
+.text7 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  color: #FFFFFF;
+  margin-top: 896px;
+  margin-left: -12px;
+  transform: rotate(-90deg);
+}
+.text8 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  color: #FFFFFF;
+  margin-top: 1042px;
+  margin-left: 36px;
+}
+.text8:hover{
+  transform: rotate(360deg);
+  transition: all .5s ease-out;
+ }
+.text9 {
+  position: absolute;
+  font-family: "PFDinCondensedRegular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  color: #FFFFFF;
+  margin-top: 1152px;
+  margin-left: 47px;
+}
+.puanti{
+  position: absolute;
+  margin-top: 644px;
+  margin-left: 481px;
+  transform: scale(0.55);
+}
+.nadevai{
+  position: absolute;
+  margin-top: 649px;
+  margin-left: 341px;
+  transform: scale(0.55);
+}
+.copito6 {
+  position: absolute;
+  margin-top: 690px;
+  margin-left: 371px;
+  transform: scale(0.6);
+}
+.logo {
+  position: absolute;
+  margin-top: 1130px;
+  margin-left: 577px;
+  transform: scale(0.6);
+}
+.puanti2{
+  position: absolute;
+  margin-top: 686px;
+  margin-left: 246px;
+  transform: scale(0.55);
+}
+.nadevai2{
+  position: absolute;
+  margin-top: 862px;
+  margin-left: 299px;
+  transform: scale(0.55);
+}
+.lasttext {
+  position: absolute;
+  margin-top: 391px;
+  margin-left: -23px;
+  transform: scale(0.5);
+}
+.top {
+  position: absolute;
+  margin-top: 876px;
+  margin-left: 965px;
+}
+.leg {
+  position: absolute;
+  margin-top: -97px;
+  margin-left: 1px;
+}
+.scale {
+   animation: scale 1.2s steps(1) alternate infinite;
+ }
+ @keyframes scale {
+  0% {margin-top: -283px; margin-left: -207px;}
+  16% {margin-top: -325px; margin-left: -230px;}
+  33% {margin-top: -355px; margin-left: -288px;}
+  43% {margin-top: -405px; margin-left: -278px;}
+  58% {margin-top: -465px; margin-left: -262px;}
+  68% {margin-top: -525px; margin-left: -252px;}
+  86% {margin-top: -585px; margin-left: -242px;}
+ }
+ .dissolve {
+    animation: dissolve 1.2s steps(1) alternate infinite;
+  }
+  @keyframes dissolve {
+   0% {margin-top: -245px; margin-left: 270px;}
+   16% {margin-top: -296px; margin-left: 275px;}
+   26% {margin-top: -326px; margin-left: 280px;}
+   33% {margin-top: -367px; margin-left: 283px;}
+   43% {margin-top: -427px; margin-left: 285px;}
+   58% {margin-top: -479px; margin-left: 288px;}
+   68% {margin-top: -509px; margin-left: 290px;}
+   86% {margin-top: -525px; margin-left: 295px;}
+  }
+  .tremble {
+     animation: tremble 1s steps(1) alternate infinite;
+   }
+   @keyframes tremble {
+    0% {transform: rotate(-8deg);}
+    16% {transform: rotate(-4deg);}
+    33% {transform: rotate(0deg);}
+    58% {transform: rotate(4deg);}
+    76% {transform: rotate(8deg);}
+   }
+   .tremble2 {
+      animation: tremble2 1s steps(1) alternate infinite;
+    }
+    @keyframes tremble2 {
+     0% {transform: rotate(8deg);}
+     16% {transform: rotate(4deg);}
+     33% {transform: rotate(0deg);}
+     58% {transform: rotate(-4deg);}
+     76% {transform: rotate(-8deg);}
+    }
+    .wave {
+       animation: wave 1s steps(1) alternate infinite;
+     }
+     @keyframes wave {
+      0% {margin-left: 91px;}
+      16% {margin-left: 101px;}
+      33% {margin-left: 111px;transform: rotate(-2deg);}
+      58% {margin-left: 121px;transform: rotate(-4deg);}
+      76% {margin-left: 131px;transform: rotate(-6deg);}
+     }
+      .wave2 {
+         animation: wave2 1s steps(1) alternate infinite;
+       }
+       @keyframes wave2 {
+        0% {margin-left: 381px;}
+        16% {margin-left: 391px;}
+        33% {margin-left: 401px;transform: rotate(-2deg);}
+        58% {margin-left: 411px;transform: rotate(-4deg);}
+        76% {margin-left: 421px;transform: rotate(-6deg);}
+       }
+        .dissolve2 {
+           animation: dissolve2 1.2s steps(1) alternate infinite;
+         }
+         @keyframes dissolve2 {
+          0% {margin-top: 204px; margin-left: -277px;}
+          16% {margin-top: 208px; margin-left: -307px;}
+          23% {margin-top: 212px; margin-left: -337px;}
+          33% {margin-top: 216px; margin-left: -357px;}
+          43% {margin-top: 220px; margin-left: -377px;}
+          58% {margin-top: 225px; margin-left: -427px;}
+          78% {margin-top: 230px; margin-left: -497px;}
+          86% {margin-top: 235px; margin-left: -557px;}
+         }
+         .mover {
+            animation: mover 2.4s steps(1) alternate infinite;
+            animation-play-state: running;
+          }
+         @keyframes mover {
+           0% {transform: scale(0.55);}
+           16% {transform: scale(0.45);}
+           32% {transform: scale(0.4);}
+           42% {transform: scale(0.25);}
+           68% {transform: scale(0.4);}
+           78% {transform: scale(0.45);}
+           86% {transform: scale(0.55);}
+         }
+         .turn {
+            animation: turn 1s steps(1) alternate infinite;
+            animation-play-state: running;
+          }
+          @keyframes turn {
+           0% {transform: rotate(20deg);}
+           16% {transform: rotate(10deg);}
+           33% {transform: rotate(0deg);}
+           58% {transform: rotate(-10deg);}
+           76% {transform: rotate(-20deg);}
+          }
+          .fly{
+             animation: fly 1.2s steps(1) alternate infinite;
+             animation-play-state: running;
+           }
+           @keyframes fly {
+            0% {margin-top: 391px; margin-left: -23px;}
+            33% {margin-top: 400px; margin-left: -20px;}
+            48% {margin-top: 400px; margin-left: -26px;}
+            66% {margin-top: 400px; margin-left: -32px;}
+            76% {margin-top: 400px; margin-left: -38px;}
+            86% {margin-top: 381px; margin-left: -48px;}
+           }
+          .cop {
+             animation: cop 2.4s steps(1) alternate infinite;
+             animation-play-state: running;
+           }
+           @keyframes cop {
+             0% {transform: scale(0.6);}
+             8% {transform: scale(0.55);}
+             16% {transform: scale(0.5);}
+             36% {transform: scale(0.45);}
+             46% {transform: scale(0.4);}
+             56% {transform: scale(0.3);}
+             60% {transform: scale(0.4);}
+             69% {transform: scale(0.45);}
+             76% {transform: scale(0.5);}
+             81% {transform: scale(0.55);}
+             86% {transform: scale(0.6);}
+           }
+            .bottom2 {
+               animation: bottom2 1.2s alternate linear infinite;
+               animation-play-state: running;
+             }
+             @keyframes bottom2 {
+               0% {opacity: 1;}
+               100% {opacity: 0;}
+             }
+             .turnover {
+                animation: turnover 1s steps(1) alternate infinite;
+                animation-play-state: running;
+              }
+              @keyframes turnover {
+               0% {transform: rotate(0deg);}
+               16% {transform: rotate(180deg);}
+               33% {transform: rotate(270deg);}
+               48% {transform: rotate(360deg);}
+               76% {transform: rotate(0deg);}
+              }
+              adress {
+                 animation: adress 1s ease infinite;
+                 animation-play-state: running;
+               }
+               @keyframes adress {
+                0% {transform: rotate(-90deg);}
+                16% {transform: rotate(-85deg);}
+                33% {transform: rotate(-95deg);}
+                48% {transform: rotate(-85deg);}
+                76% {transform: rotate(-90deg);}
+               }
+
 }

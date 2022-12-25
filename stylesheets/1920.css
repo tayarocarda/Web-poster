@@ -71,7 +71,7 @@
     font-weight: 400;
     font-size: 400px;
     color: #FFFFFF;
-    margin-top: 581px;
+    margin-top: 602px;
     margin-left: 890px;
     transform: rotate(-10deg);
   }
@@ -82,7 +82,7 @@
     font-weight: 400;
     font-size: 136px;
     color: #FFFFFF;
-    margin-top: 1010px;
+    margin-top: 1050px;
     margin-left: 254px;
     transform: rotate(6deg);
   }
@@ -93,7 +93,7 @@
     font-weight: 400;
     font-size: 180px;
     color: #FFFFFF;
-    margin-top: 1276px;
+    margin-top: 1324px;
     margin-left: 138px;
     transform: rotate(32deg);
   }
@@ -109,7 +109,7 @@
     font-weight: 400;
     font-size: 80px;
     color: #FFFFFF;
-    margin-top: 1652px;
+    margin-top: 1700px;
     margin-left: -15px;
     transform: rotate(-90deg);
   }
@@ -120,7 +120,7 @@
     font-weight: 400;
     font-size: 174px;
     color: #FFFFFF;
-    margin-top: 1923px;
+    margin-top: 1971px;
     margin-left: 78px;
   }
   .text8:hover{
@@ -140,13 +140,13 @@
   .puanti{
     position: absolute;
     margin-top: 1380px;
-    margin-left: 1382px;
+    margin-left: 1445px;
     transform: scale(1.4);
   }
   .nadevai{
     position: absolute;
-    margin-top: 1458px;
-    margin-left: 1135px;
+    margin-top: 1440px;
+    margin-left: 1178px;
     transform: scale(1.4);
   }
   .copito6 {
@@ -161,14 +161,14 @@
   }
   .puanti2{
     position: absolute;
-    margin-top: 1542px;
-    margin-left: 945px;
+    margin-top: 1539px;
+    margin-left: 963px;
     transform: scale(1.4);
   }
   .nadevai2{
     position: absolute;
-    margin-top: 1833px;
-    margin-left: 958px;
+    margin-top: 1835px;
+    margin-left: 966px;
     transform: scale(1.4);
   }
   .lasttext {
@@ -213,7 +213,7 @@
      16% {margin-top: -296px; margin-left: 1034px;}
      26% {margin-top: -326px; margin-left: 1064px;}
      33% {margin-top: -367px; margin-left: 1104px;}
-     43% {margin-top: -427px; margin-left: 1144px;}
+     43% {margin-top: -427px; margin-left: 1124px;}
      58% {margin-top: -479px; margin-left: 1104px;}
      68% {margin-top: -529px; margin-left: 1064px;}
      86% {margin-top: -595px; margin-left: 1034px;}
@@ -417,7 +417,7 @@
                        100% {opacity: 0;}
                      }
                      .fly{
-                        animation: fly 1.2s steps(1) alternate infinite;
+                        animation: fly 1s steps(1) alternate infinite;
                         animation-play-state: running;
                       }
                       .fly:hover {
@@ -425,12 +425,7 @@
                        }
                       @keyframes fly {
                        0% {margin-top: 1236px; margin-left: 487px;}
-                       16% {margin-top: 1206px; margin-left: 497px;}
-                       23% {margin-top: 1186px; margin-left: 507px;}
-                       33% {margin-top: 1176px; margin-left: 517px;}
-                       43% {margin-top: 1179px; margin-left: 507px;}
-                       58% {margin-top: 1188px; margin-left: 497px;}
-                       78% {margin-top: 1190px; margin-left: 487px;}
-                       86% {margin-top: 1196px; margin-left: 477px;}
+                       53% {margin-top: 1199px; margin-left: 467px;}
+                       86% {margin-top: 1256px; margin-left: 507px;}
                       }
   }
