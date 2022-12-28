@@ -183,7 +183,7 @@ body {
   margin-left: 1px;
 }
 .scale {
-   animation: scale 1.8s steps(1) alternate infinite;
+   animation: scale 2.4s ease-in infinite;
  }
  @keyframes scale {
   0% {margin-top: 125px; margin-left: -281px;}
@@ -191,12 +191,12 @@ body {
   33% {margin-top: 135px; margin-left: -321px;}
   43% {margin-top: 130px; margin-left: -341px;}
   58% {margin-top: 125px; margin-left: -321px;}
-  68% {margin-top: 120px; margin-left: -301px;}
-  86% {margin-top: 115px; margin-left: -281px;}
+  78% {margin-top: 120px; margin-left: -301px;}
+  100% {margin-top: 115px; margin-left: -281px;}
  }
 .dissolve {
-   animation: dissolve 1.8s steps(1) alternate infinite;
- }
+   animation: dissolve 2.4s ease-in infinite;
+   }
  @keyframes dissolve {
   0% {margin-top: -432px; margin-left: -274px;}
   16% {margin-top: -375px; margin-left: -265px;}
@@ -205,10 +205,10 @@ body {
   43% {margin-top: -295px; margin-left: -239px;}
   58% {margin-top: -325px; margin-left: -250px;}
   68% {margin-top: -375px; margin-left: -265px;}
-  86% {margin-top: -432px; margin-left: -274px;}
+  100% {margin-top: -432px; margin-left: -274px;}
  }
  .bottom2 {
-    animation: bottom2 1.2s alternate linear infinite;
+    animation: bottom2 1.2s ease alternate infinite;
     animation-play-state: running;
   }
   @keyframes bottom2 {
@@ -216,47 +216,41 @@ body {
     100% {opacity: 0;}
   }
  .tremble {
-    animation: tremble 1.1s steps(1) alternate infinite;
+    animation: tremble 1.2s ease alternate infinite;
   }
   @keyframes tremble {
-   0% {transform: rotate(-8deg);}
-   16% {transform: rotate(-4deg);}
-   33% {transform: rotate(0deg);}
-   58% {transform: rotate(4deg);}
-   76% {transform: rotate(8deg);}
+    0% {opacity: 1;}
+    100% {opacity: 0;}
   }
   .tremble2 {
-     animation: tremble2 1.1s steps(1) alternate infinite;
+     animation: tremble2 2.4s ease alternate infinite;
    }
    @keyframes tremble2 {
-    0% {transform: rotate(8deg);}
-    16% {transform: rotate(4deg);}
-    33% {transform: rotate(0deg);}
-    58% {transform: rotate(-4deg);}
-    76% {transform: rotate(-8deg);}
+     0% {transform: rotate(0deg);}
+     100% {transform: rotate(360deg);}
    }
    .wave {
-      animation: wave 1.1s steps(1) alternate infinite;
+      animation: wave 1.2s ease alternate infinite;
     }
     @keyframes wave {
      0% {margin-left: 36px;}
      16% {margin-left: 40px;}
-     33% {margin-left: 46px;transform: rotate(-2deg);}
-     58% {margin-left: 50px;transform: rotate(-4deg);}
-     76% {margin-left: 54px;transform: rotate(-6deg);}
+     33% {margin-left: 50px;transform: rotate(-2deg);}
+     58% {margin-left: 60px;transform: rotate(-4deg);}
+     76% {margin-left: 74px;transform: rotate(-6deg);}
     }
      .wave2 {
-        animation: wave2 1.1s steps(1) alternate infinite;
+        animation: wave2 1.2s ease alternate infinite;
       }
       @keyframes wave2 {
        0% {margin-left: 140px;}
-       16% {margin-left: 145px;}
-       33% {margin-left: 150px;transform: rotate(-2deg);}
-       58% {margin-left: 155px;transform: rotate(-4deg);}
-       76% {margin-left: 160px;transform: rotate(-6deg);}
+       16% {margin-left: 150px;}
+       33% {margin-left: 160px;transform: rotate(-2deg);}
+       58% {margin-left: 175px;transform: rotate(-4deg);}
+       76% {margin-left: 195px;transform: rotate(-6deg);}
       }
        .mover {
-          animation: mover 3.2s steps(1) alternate infinite;
+          animation: mover 2.4s ease-out infinite;
           animation-play-state: running;
         }
         @keyframes mover {
@@ -269,32 +263,23 @@ body {
           86% {transform: scale(0.26);}
         }
         .turn {
-           animation: turn 1.2s steps(1) alternate infinite;
+           animation: turn 1.2s ease alternate infinite;
            animation-play-state: running;
          }
          @keyframes turn {
-          0% {transform: rotate(20deg);}
-          16% {transform: rotate(10deg);}
-          33% {transform: rotate(0deg);}
-          58% {transform: rotate(-10deg);}
-          76% {transform: rotate(-20deg);}
+           0% {transform: rotate(20deg);}
+           100% {transform: rotate(-20deg);}
          }
         .fly{
-           animation: fly 1.8s steps(1) alternate infinite;
+           animation: fly 1.2s ease alternate infinite;
            animation-play-state: running;
          }
          @keyframes fly {
-          0% {margin-top: 140px; margin-left: -270px;}
-          16% {margin-top: 134px; margin-left: -274px;}
-          23% {margin-top: 128px; margin-left: -284px;}
-          33% {margin-top: 122px; margin-left: -294px;}
-          43% {margin-top: 128px; margin-left: -286px;}
-          58% {margin-top: 132px; margin-left: -280px;}
-          78% {margin-top: 136px; margin-left: -274px;}
-          86% {margin-top: 140px; margin-left: -270px;}
+           0% {opacity: 1;}
+           100% {opacity: 0;}
          }
          .cop {
-            animation: cop 2.4s steps(1) alternate infinite;
+            animation: cop 2.4s ease-out infinite;
             animation-play-state: running;
           }
           @keyframes cop {
@@ -320,15 +305,12 @@ body {
              76% {transform: rotate(-90deg);}
             }
             .turnover {
-               animation: turnover 1.4s steps(1) alternate infinite;
+               animation: turnover 1.6s ease-out infinite;
                animation-play-state: running;
              }
              @keyframes turnover {
-              0% {transform: rotate(0deg);}
-              16% {transform: rotate(180deg);}
-              33% {transform: rotate(270deg);}
-              48% {transform: rotate(360deg);}
-              76% {transform: rotate(0deg);}
+               0% {transform: rotate(0deg);}
+               100% {transform: rotate(360deg);}
              }
 
 }

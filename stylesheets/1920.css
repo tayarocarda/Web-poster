@@ -49,8 +49,8 @@
     font-weight: 400;
     font-size: 260px;
     color: #FFFFFF;
-    margin-top: 93px;
-    margin-left: 1392px;
+    margin-top: 167px;
+    margin-left: 1344px;
     transform: rotate(-8deg);
   }
   .text3 {
@@ -82,7 +82,7 @@
     font-weight: 400;
     font-size: 136px;
     color: #FFFFFF;
-    margin-top: 1050px;
+    margin-top: 1022px;
     margin-left: 254px;
     transform: rotate(6deg);
   }
@@ -141,13 +141,13 @@
     position: absolute;
     margin-top: 1380px;
     margin-left: 1445px;
-    transform: scale(1.4);
+    transform: scale(1.2);
   }
   .nadevai{
     position: absolute;
     margin-top: 1440px;
     margin-left: 1178px;
-    transform: scale(1.4);
+    transform: scale(1.2);
   }
   .copito6 {
     position: absolute;
@@ -163,13 +163,13 @@
     position: absolute;
     margin-top: 1539px;
     margin-left: 963px;
-    transform: scale(1.4);
+    transform: scale(1.2);
   }
   .nadevai2{
     position: absolute;
     margin-top: 1835px;
     margin-left: 966px;
-    transform: scale(1.4);
+    transform: scale(1.2);
   }
   .lasttext {
     position: absolute;
@@ -188,7 +188,7 @@
     margin-left: 1px;
   }
   .scale {
-     animation: scale 1.2s steps(1) alternate infinite;
+     animation: scale 2.4s ease-in infinite;
    }
    .scale:hover {
       animation-play-state: paused;
@@ -203,7 +203,7 @@
     86% {margin-top: -745px; margin-left: -242px;}
    }
    .dissolve {
-      animation: dissolve 1.2s steps(1) alternate infinite;
+      animation: dissolve 2.4s ease-in infinite;
     }
     .dissolve:hover {
        animation-play-state: paused;
@@ -219,33 +219,27 @@
      86% {margin-top: -595px; margin-left: 1034px;}
     }
    .tremble {
-      animation: tremble 1s steps(1) alternate infinite;
+      animation: tremble 1.2s ease alternate infinite;
     }
     .tremble:hover {
        animation-play-state: paused;
      }
     @keyframes tremble {
-     0% {transform: rotate(-6deg);}
-     16% {transform: rotate(-3deg);}
-     33% {transform: rotate(0deg);}
-     58% {transform: rotate(3deg);}
-     76% {transform: rotate(6deg);}
+        0% {opacity: 1;}
+        100% {opacity: 0;}
     }
     .tremble2 {
-       animation: tremble2 1s steps(1) alternate infinite;
+       animation: tremble2 2.4s ease alternate infinite;
      }
      .tremble2:hover {
         animation-play-state: paused;
       }
      @keyframes tremble2 {
-      0% {transform: rotate(8deg);}
-      16% {transform: rotate(4deg);}
-      33% {transform: rotate(0deg);}
-      58% {transform: rotate(-4deg);}
-      76% {transform: rotate(-8deg);}
+       0% {transform: rotate(0deg);}
+       100% {transform: rotate(360deg);}
      }
     .wave {
-       animation: wave 1s steps(1) alternate infinite;
+       animation: wave 1.2s ease alternate infinite;
      }
      @keyframes wave {
       0% {margin-left: 189px;}
@@ -258,7 +252,7 @@
         animation-play-state: paused;
       }
       .wave2 {
-         animation: wave2 1s steps(1) alternate infinite;
+         animation: wave2 1.2s ease alternate infinite;
        }
        @keyframes wave2 {
         0% {margin-left: 860px;}
@@ -271,7 +265,7 @@
           animation-play-state: paused;
         }
         .dissolve2 {
-           animation: dissolve2 1.2s steps(1) alternate infinite;
+           animation: dissolve2 2.4s ease-in infinite;
          }
          .dissolve2:hover {
             animation-play-state: paused;
@@ -287,21 +281,18 @@
           86% {margin-top: 570px; margin-left: -691px;}
          }
          .turn {
-            animation: turn 1s steps(1) alternate infinite;
+            animation: turn 1.2s ease alternate infinite;
             animation-play-state: running;
           }
          .turn:hover {
             animation-play-state: paused;
           }
           @keyframes turn {
-           0% {transform: rotate(20deg);}
-           16% {transform: rotate(10deg);}
-           33% {transform: rotate(0deg);}
-           58% {transform: rotate(-10deg);}
-           76% {transform: rotate(-20deg);}
+            0% {transform: rotate(20deg);}
+            100% {transform: rotate(-20deg);}
           }
            .mover {
-              animation: mover 2.4s steps(1) alternate infinite;
+              animation: mover 2.4s ease-out infinite;
               animation-play-state: running;
             }
             .mover:hover {
@@ -311,29 +302,29 @@
               0% {transform: scale(1.2);}
               16% {transform: scale(1);}
               32% {transform: scale(0.8);}
-              42% {transform: scale(0.6);}
+              42% {transform: scale(0.7);}
               68% {transform: scale(0.8);}
               78% {transform: scale(1);}
-              86% {transform: scale(1.2);}
+              100% {transform: scale(1.2);}
             }
             .mover2 {
-               animation: mover2 1.4s steps(1) alternate infinite;
+               animation: mover2 2s ease-out infinite;
                animation-play-state: running;
              }
              .mover2:hover {
                 animation-play-state: paused;
               }
              @keyframes mover2 {
-               0% {transform: scale(1);}
-               16% {transform: scale(0.8);}
-               32% {transform: scale(0.6);}
-               42% {transform: scale(0.4);}
-               68% {transform: scale(0.6);}
-               78% {transform: scale(0.8);}
-               86% {transform: scale(1);}
+               0% {transform: scale(0.6);}
+               16% {transform: scale(0.55);}
+               32% {transform: scale(0.4);}
+               42% {transform: scale(0.3);}
+               68% {transform: scale(0.4);}
+               78% {transform: scale(0.55);}
+               86% {transform: scale(0.6);}
              }
              .cop {
-                animation: cop 2.4s steps(1) alternate infinite;
+                animation: cop 2.4s ease-out infinite;
                 animation-play-state: running;
               }
               @keyframes cop {
@@ -351,7 +342,7 @@
                  animation-play-state: paused;
                }
                .rot {
-                  animation: rot 1s steps(1) alternate infinite;
+                  animation: rot 1.6s ease-out infinite;
                 }
                 @keyframes rot {
                   0% {transform: scale(1.8);}
@@ -364,21 +355,18 @@
                    animation-play-state: paused;
                  }
                  .turnover {
-                    animation: turnover 1s steps(1) alternate infinite;
+                    animation: turnover 1.6s ease-out infinite;
                     animation-play-state: running;
                   }
                   .turnover:hover {
                      animation-play-state: paused;
                    }
                   @keyframes turnover {
-                   0% {transform: rotate(0deg);}
-                   16% {transform: rotate(180deg);}
-                   33% {transform: rotate(270deg);}
-                   48% {transform: rotate(360deg);}
-                   76% {transform: rotate(0deg);}
+                    0% {transform: rotate(0deg);}
+                    100% {transform: rotate(360deg);}
                   }
                   .adress {
-                     animation: adress 1s ease infinite;
+                     animation: adress 1.6s ease infinite;
                      animation-play-state: paused;
                    }
                    .adress:hover {
@@ -392,7 +380,7 @@
                     76% {transform: rotate(-90deg);}
                    }
                    .bottom {
-                      animation: bottom 1s ease infinite;
+                      animation: bottom 1.6s ease infinite;
                       animation-play-state: paused;
                     }
                     .bottom:hover {
@@ -406,7 +394,7 @@
                      76% {transform: rotate(-0deg);}
                     }
                     .bottom2 {
-                       animation: bottom2 1.2s alternate linear infinite;
+                       animation: bottom2 1.2s ease alternate infinite;
                        animation-play-state: running;
                      }
                      .bottom2:hover {
@@ -417,15 +405,15 @@
                        100% {opacity: 0;}
                      }
                      .fly{
-                        animation: fly 1s steps(1) alternate infinite;
+                        animation: fly 1.2s ease alternate infinite;
                         animation-play-state: running;
                       }
                       .fly:hover {
                          animation-play-state: paused;
                        }
                       @keyframes fly {
-                       0% {margin-top: 1236px; margin-left: 487px;}
-                       53% {margin-top: 1199px; margin-left: 467px;}
-                       86% {margin-top: 1256px; margin-left: 507px;}
+                        0% {opacity: 1;}
+                        100% {opacity: 0;}
                       }
   }
+}}}

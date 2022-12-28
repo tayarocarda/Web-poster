@@ -184,7 +184,7 @@ body {
   margin-left: 1px;
 }
 .scale {
-   animation: scale 1.2s steps(1) alternate infinite;
+   animation: scale 2.4s ease-in infinite;
  }
  @keyframes scale {
   0% {margin-top: -15px; margin-left: -314px;}
@@ -193,10 +193,10 @@ body {
   43% {margin-top: -30px; margin-left: -374px;}
   58% {margin-top: -34px; margin-left: -394px;}
   68% {margin-top: -40px; margin-left: -423px;}
-  86% {margin-top: -46px; margin-left: -443px;}
+  100% {margin-top: -46px; margin-left: -443px;}
  }
 .dissolve {
-   animation: dissolve 2.4s steps(1) alternate infinite;
+   animation: dissolve 2.4s ease-in infinite;
  }
  @keyframes dissolve {
   0% {margin-top: -410px; margin-left: -274px;}
@@ -205,18 +205,15 @@ body {
   33% {margin-top: -270px; margin-left: -260px;}
   43% {margin-top: -295px; margin-left: -239px;}
   58% {margin-top: -325px; margin-left: -250px;}
-  68% {margin-top: -375px; margin-left: -265px;}
-  86% {margin-top: -432px; margin-left: -274px;}
+  78% {margin-top: -375px; margin-left: -265px;}
+  100% {margin-top: -432px; margin-left: -274px;}
  }
  .tremble {
-    animation: tremble 1.2s steps(1) alternate infinite;
+    animation: tremble 1.2s ease alternate infinite;
   }
   @keyframes tremble {
-   0% {transform: rotate(8deg);}
-   16% {transform: rotate(4deg);}
-   33% {transform: rotate(0deg);}
-   58% {transform: rotate(-4deg);}
-   76% {transform: rotate(-8deg);}
+    0% {opacity: 1;}
+    100% {opacity: 0;}
   }
   .tremble2 {
      animation: tremble2 1.2s steps(1) alternate infinite;
@@ -229,7 +226,7 @@ body {
     76% {transform: rotate(-8deg);}
    }
    .wave {
-      animation: wave 1.2s steps(1) alternate infinite;
+      animation: wave 1.2s ease alternate infinite;
     }
     @keyframes wave {
      0% {margin-left: 32px;}
@@ -239,7 +236,7 @@ body {
      76% {margin-left: 54px;transform: rotate(-6deg);}
     }
      .wave2 {
-        animation: wave2 1.2s steps(1) alternate infinite;
+        animation: wave2 1.2s ease alternate infinite;
       }
       @keyframes wave2 {
        0% {margin-left: 118px;}
@@ -249,7 +246,7 @@ body {
        76% {margin-left: 134px;transform: rotate(-6deg);}
       }
        .bottom2 {
-          animation: bottom2 1.2s alternate linear infinite;
+          animation: bottom2 1.2s ease alternate infinite;
           animation-play-state: running;
         }
         @keyframes bottom2 {
@@ -257,43 +254,31 @@ body {
           100% {opacity: 0;}
         }
         .turn {
-           animation: turn 1.2s steps(1) alternate infinite;
+           animation: turn 1.2s ease alternate infinite;
            animation-play-state: running;
          }
          @keyframes turn {
-          0% {transform: rotate(20deg);}
-          16% {transform: rotate(10deg);}
-          33% {transform: rotate(0deg);}
-          58% {transform: rotate(-10deg);}
-          76% {transform: rotate(-20deg);}
+           0% {transform: rotate(20deg);}
+           100% {transform: rotate(-20deg);}
          }
          .fly{
-            animation: fly 1.8s steps(1) alternate infinite;
+            animation: fly 1.2s ease alternate infinite;
             animation-play-state: running;
           }
           @keyframes fly {
-           0% {margin-top: -1px; margin-left: -305px;}
-           16% {margin-top: -5px; margin-left: -310px;}
-           23% {margin-top: -9px; margin-left: -315px;}
-           33% {margin-top: -12px; margin-left: -318px;}
-           43% {margin-top: -15px; margin-left: -321px;}
-           58% {margin-top: -12px; margin-left: -318px;}
-           78% {margin-top: -9px; margin-left: -315px;}
-           86% {margin-top: -5px; margin-left: -310px;}
+            0% {opacity: 1;}
+            100% {opacity: 0;}
           }
          .turnover {
-            animation: turnover 1.2s steps(1) alternate infinite;
+            animation: turnover 1.6s ease-out infinite;
             animation-play-state: running;
           }
           @keyframes turnover {
-           0% {transform: rotate(0deg);}
-           16% {transform: rotate(180deg);}
-           33% {transform: rotate(270deg);}
-           48% {transform: rotate(360deg);}
-           76% {transform: rotate(0deg);}
+            0% {transform: rotate(0deg);}
+            100% {transform: rotate(360deg);}
           }
           .cop {
-             animation: cop 2.4s steps(1) alternate infinite;
+             animation: cop 2.4s ease-out infinite;
              animation-play-state: running;
            }
            @keyframes cop {
@@ -307,7 +292,7 @@ body {
              86% {transform: scale(0.25);}
            }
            .mover {
-              animation: mover 3.6s steps(1) alternate infinite;
+              animation: mover 2.4s ease-out infinite;
               animation-play-state: running;
             }
             @keyframes mover {
