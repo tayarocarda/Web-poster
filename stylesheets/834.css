@@ -195,6 +195,9 @@ body {
 .scale {
    animation: scale 2.4s ease-in infinite;
  }
+ .scale:hover {
+    animation-play-state: paused;
+  }
  @keyframes scale {
   0% {margin-top: -283px; margin-left: -207px;}
   16% {margin-top: -325px; margin-left: -230px;}
@@ -207,6 +210,9 @@ body {
  .dissolve {
     animation: dissolve 2.4s ease-in infinite;
   }
+  .dissolve:hover {
+     animation-play-state: paused;
+   }
   @keyframes dissolve {
    0% {margin-top: -245px; margin-left: 270px;}
    16% {margin-top: -296px; margin-left: 275px;}
@@ -220,6 +226,9 @@ body {
   .tremble {
      animation: tremble 1.2s ease alternate infinite;
    }
+   .tremble:hover {
+      animation-play-state: paused;
+    }
    @keyframes tremble {
      0% {opacity: 1;}
      100% {opacity: 0;}
@@ -227,6 +236,9 @@ body {
    .tremble2 {
       animation: tremble2 2.4s ease alternate infinite;
     }
+    .tremble2:hover {
+       animation-play-state: paused;
+     }
     @keyframes tremble2 {
       0% {transform: rotate(0deg);}
       100% {transform: rotate(360deg);}
@@ -234,6 +246,9 @@ body {
     .wave {
        animation: wave 1.2s ease alternate infinite;
      }
+     .wave:hover {
+        animation-play-state: paused;
+      }
      @keyframes wave {
       0% {margin-left: 91px;}
       16% {margin-left: 101px;}
@@ -244,6 +259,9 @@ body {
       .wave2 {
          animation: wave2 1.2s ease alternate infinite;
        }
+       .wave2:hover {
+          animation-play-state: paused;
+        }
        @keyframes wave2 {
         0% {margin-left: 381px;}
         16% {margin-left: 391px;}
@@ -254,6 +272,9 @@ body {
         .dissolve2 {
            animation: dissolve2 2.4s ease-in infinite;
          }
+         .dissolve2:hover {
+            animation-play-state: paused;
+          }
          @keyframes dissolve2 {
           0% {margin-top: 204px; margin-left: -277px;}
           16% {margin-top: 208px; margin-left: -307px;}
@@ -268,6 +289,9 @@ body {
             animation: mover 2.4s ease-out infinite;
             animation-play-state: running;
           }
+          .mover:hover {
+             animation-play-state: paused;
+           }
          @keyframes mover {
            0% {transform: scale(0.55);}
            16% {transform: scale(0.45);}
@@ -281,6 +305,9 @@ body {
             animation: turn 1.2s ease alternate infinite;
             animation-play-state: running;
           }
+          .turn:hover {
+             animation-play-state: paused;
+           }
           @keyframes turn {
             0% {transform: rotate(20deg);}
             100% {transform: rotate(-20deg);}
@@ -289,6 +316,9 @@ body {
              animation: fly 1.2s ease alternate infinite;
              animation-play-state: running;
            }
+           .fly:hover {
+              animation-play-state: paused;
+            }
            @keyframes fly {
              0% {opacity: 1;}
              100% {opacity: 0;}
@@ -297,6 +327,9 @@ body {
              animation: cop 2.4s ease-out infinite;
              animation-play-state: running;
            }
+           .cop:hover {
+              animation-play-state: paused;
+            }
            @keyframes cop {
              0% {transform: scale(0.6);}
              8% {transform: scale(0.55);}
@@ -314,6 +347,9 @@ body {
                animation: bottom2 1.2s ease alternate infinite;
                animation-play-state: running;
              }
+             .bottom2:hover {
+                animation-play-state: paused;
+              }
              @keyframes bottom2 {
                0% {opacity: 1;}
                100% {opacity: 0;}
@@ -322,6 +358,9 @@ body {
                 animation: turnover 1.6s ease-out infinite;
                 animation-play-state: running;
               }
+              .turnover:hover {
+                 animation-play-state: paused;
+               }
               @keyframes turnover {
                 0% {transform: rotate(0deg);}
                 100% {transform: rotate(360deg);}
@@ -330,6 +369,9 @@ body {
                  animation: adress 1.6s ease infinite;
                  animation-play-state: running;
                }
+               .adress:hover {
+                  animation-play-state: running;
+                }
                @keyframes adress {
                 0% {transform: rotate(-90deg);}
                 16% {transform: rotate(-85deg);}

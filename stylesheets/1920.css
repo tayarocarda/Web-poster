@@ -61,7 +61,7 @@
     font-size: 400px;
     color: #FFFFFF;
     margin-top: 305px;
-    margin-left: 229px;
+    margin-left: 169px;
     transform: rotate(-10deg);
   }
   .text4 {
@@ -242,10 +242,10 @@
        animation: wave 1.2s ease alternate infinite;
      }
      @keyframes wave {
-      0% {margin-left: 189px;}
-      16% {margin-left: 219px;}
-      33% {margin-left: 249px;transform: rotate(-1deg);}
-      58% {margin-left: 219px;transform: rotate(-3deg);}
+      0% {margin-left: 119px;}
+      16% {margin-left: 149px;}
+      33% {margin-left: 189px;transform: rotate(-1deg);}
+      58% {margin-left: 209px;transform: rotate(-3deg);}
       76% {margin-left: 189px;transform: rotate(-5deg);}
      }
      .wave:hover {
